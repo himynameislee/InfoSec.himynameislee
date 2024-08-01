@@ -2,8 +2,6 @@
 
 My list of helpful tools that can be used for [OSINT](https://osintframework.com/) and Sandboxing for any level Security Professional. These tools can be used to look up information on Domains, IPs, URLs, Hashes, and more. This is an ever-growing list, and will consistently be updated as I find more.&#x20;
 
-Also, here's a link to a [massive collection of OSINT tools](https://start.me/p/L1rEYQ/osint4all). As I test more tools out, I will put them in here. But this is new to me as of 9/25/2023.
-
 ## IP/Domain
 
 * [AbuseIPDB](https://www.abuseipdb.com/): IP/Domain Information - Able to see if other users have reported the IP/domain for malicious activity recently and what for.
