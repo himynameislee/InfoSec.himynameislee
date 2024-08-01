@@ -157,5 +157,3 @@ I found a tool called [Depix](https://github.com/spipm/Depix), and after some mo
 After some more trial and error, it turns out that it was the password, and I was able to su to root and get the flag.
 
 <figure><img src=".gitbook/assets/image (64).png" alt=""><figcaption></figcaption></figure>
-
-<figure><img src=".gitbook/assets/image (45).png" alt=""><figcaption></figcaption></figure>
