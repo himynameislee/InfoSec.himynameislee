@@ -59,7 +59,7 @@ Not long after, I found the user.txt flag
 
 <figure><img src=".gitbook/assets/image (180).png" alt=""><figcaption></figcaption></figure>
 
-Moving on, I ran Winpeas, but didn't find anything that stuck out. A manual search revealed a file called 'AdminUserLogonData.xml'.
+Moving on, I ran Linpeas, but didn't find anything that stuck out. A manual search revealed a file called 'AdminUserLogonData.xml'.
 
 <figure><img src=".gitbook/assets/image (181).png" alt=""><figcaption></figcaption></figure>
 
