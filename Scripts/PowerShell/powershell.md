@@ -1,12 +1,11 @@
 # Powershell
 
-## Useful Powershell Commands
-
 Commands I have used that made my life easier. Remember to read the command and replace anything in \<BETWEEN>.
 
 ### GroupMembers.ps1
 
 Displays members of a specified Security Group within Active Directory.
+
 ```powershell
 Get-ADGroupMember "<GROUPNAME>"
 ```
