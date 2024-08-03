@@ -7,9 +7,9 @@ Commands I have used that made my life easier. Remember to read the command and 
 ### GroupMembers.ps1
 
 Displays members of a specified Security Group within Active Directory.
-
-<pre class="language-powershell"><code class="lang-powershell"><strong>Get-ADGroupMember "&#x3C;GROUPNAME>"
-</strong></code></pre>
+```powershell
+Get-ADGroupMember "<GROUPNAME>"
+```
 
 ### NestedGroupMembers.ps1
 
@@ -107,7 +107,7 @@ Put usernames into a .txt file and you can extend their expiration date.
 Get-Content <FILE-PATH> | Set-ADAccountExpiration -DateTime "[EXPIRATION DATE]"  
 
 Get-Content <FILE-PATH> | Get-ADUser  -Prop Description | Foreach {
-$desc =  "[USERNAME DESCRIPTION]"
+$desc =  "<USERNAME-DESCRIPTION>"
      Set-ADUser  $_.sAMAccountName -Description $desc
         Write-Host "The user $($_.sAMAccountName) has been extended & the description updated to $($desc)" -ForegroundColor Green
  }
@@ -203,9 +203,11 @@ Get-ADUser -SearchBase "<OU=***>" -filter {Enabled -eq $True -and PasswordNeverE
 
 See if the usernames exist. Paste usernames into a .txt file. Extremely useful when a data leak occurs and you need to cross reference if the user is still in your organization.
 
-<pre class="language-powershell"><code class="lang-powershell"># Define the path to the text file containing usernames or emails
-<strong>$filePath = "&#x3C;FILE-PATH>"
-</strong>
+```powershell
+
+# Define the path to the text file containing usernames or emails
+$filePath = "<FILE-PATH>"
+
 # Read the contents of the text file
 $userList = Get-Content -Path $filePath
 
@@ -235,6 +237,7 @@ foreach ($user in $userList) {
         Write-Host "User '$user' does not exist in Active Directory." -ForegroundColor Red
     }
 </code></pre>
+```
 
 ### BulkDisableAccounts.ps1
 
