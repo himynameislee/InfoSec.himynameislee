@@ -15,6 +15,7 @@ Identifies members of a nested group within a Security Group.
 
 ```powershell
 Get-ADGroupMember -Identity "<NESTED-GROUP-NAME>" -Recursive -server "<DOMAIN.LOCAL>"
+
 ```
 
 ### PSVersion
@@ -29,8 +30,7 @@ $PSVersionTable
 
 Export the users of a Security Group to a .csv file.
 
-{% code overflow="wrap" %}
-```powerquery
+```powershell
 Get-ADGroupMember -identity "<SECURITY GROUP>" | Select name, samAccountname | Export-csv -path "<FILE-PATH>"
 ```
 {% endcode %}
@@ -112,7 +112,6 @@ $desc =  "[USERNAME DESCRIPTION]"
      Set-ADUser  $_.sAMAccountName -Description $desc
         Write-Host "The user $($_.sAMAccountName) has been extended & the description updated to $($desc)" -ForegroundColor Green
  }
-
 ```
 
 ### CopyADGroups.ps1
@@ -208,6 +207,8 @@ Get-ADUser -SearchBase "<OU=***>" -filter {Enabled -eq $True -and PasswordNeverE
 
 See if the usernames exist. Paste usernames into a .txt file. Extremely useful when a data leak occurs and you need to cross reference if the user is still in your organization.
 
+```powershell
+
 <pre class="language-powershell"><code class="lang-powershell"># Define the path to the text file containing usernames or emails
 <strong>$filePath = "&#x3C;FILE-PATH>"
 </strong>
@@ -240,6 +241,7 @@ foreach ($user in $userList) {
         Write-Host "User '$user' does not exist in Active Directory." -ForegroundColor Red
     }
 </code></pre>
+```
 
 ### BulkDisableAccounts.ps1
 
