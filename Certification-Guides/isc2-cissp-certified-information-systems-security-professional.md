@@ -4,7 +4,7 @@
 
 The [Certified Information Systems Security Professional (CISSP)](https://www.isc2.org/certifications/cissp) certification should be something all security professionals should strive for.  It's an extremely challenging exam that tests on all areas of Information Security. Depending on someone's skill level, it can take months or even a year to study for the exam.&#x20;
 
-That said, studying for the exam won't always be enough for people. If it weren't for my work experience, a lot of things covered in the below study material wouldn't have clicked with me. In order to even take the exam, you need to have at least 5 years of relevant work experience in 2 or more of the below domains. Or feel free to skip to the bottom to look at the material I used to help me study.
+That said, studying for the exam won't always be enough for people. If it weren't for my work experience, a lot of things covered in the below study material wouldn't have clicked with me. In order to even take the exam, you need to have at least 5 years of relevant work experience in 2 or more of the below domains. Feel free to read through the covered domains, or skip to the bottom to see the study materials I used.
 
 ## Domains
 
