@@ -103,7 +103,7 @@ Put usernames into a .txt file and you can extend their expiration date.
 # Update the description in Row 11 then fire the script 
 # Spot check to make sure everything worked as intended.
 
-Get-Content <FILE-PATH> | Set-ADAccountExpiration -DateTime "[EXPIRATION DATE]"  
+Get-Content <FILE-PATH> | Set-ADAccountExpiration -DateTime "<EXPIRATION DATE>"  
 
 Get-Content <FILE-PATH> | Get-ADUser  -Prop Description | Foreach {
 $desc =  "<USERNAME-DESCRIPTION>"
