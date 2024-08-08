@@ -10,14 +10,6 @@ Displays members of a specified Security Group within Active Directory.
 Get-ADGroupMember "<GROUPNAME>"
 ```
 
-### NestedGroupMembers.ps1
-
-Identifies members of a nested group within a Security Group.
-
-```powershell
-Get-ADGroupMember -Identity "<NESTED-GROUP-NAME>" -Recursive -server "<DOMAIN.LOCAL>"
-```
-
 ### PSVersion
 
 Displays which version of PowerShell you're using.
