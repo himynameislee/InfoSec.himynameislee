@@ -41,7 +41,7 @@ _Remember to think like a manager._
 * Common network models
 * The Internet and Intranet
 * Securing Network Equipment
-* Networking technologies and technologies
+* Networking technologies and topologies
 
 ### Domain 5: Identity and Access Management (IAM)
 
