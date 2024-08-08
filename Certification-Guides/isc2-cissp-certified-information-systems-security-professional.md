@@ -6,6 +6,8 @@ The [Certified Information Systems Security Professional (CISSP)](https://www.is
 
 That said, studying for the exam won't always be enough for people. If it weren't for my work experience, a lot of things covered in the below study material wouldn't have clicked with me. In order to even take the exam, you need to have at least 5 years of relevant work experience in 2 or more of the below domains. Feel free to read through the covered domains, or skip to the bottom to see the study materials I used.
 
+_Remember to think like a manager._
+
 ## Domains
 
 ### Domain 1: Security and Risk Management
