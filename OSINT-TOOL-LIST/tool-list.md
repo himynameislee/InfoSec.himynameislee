@@ -10,7 +10,7 @@
 * [ip.teoh.io](https://ip.teoh.io/vpn-detection): Check if an IP is currently blacklisted or is using a VPN/proxy
 * [Security Trails](https://securitytrails.com/dns-trails): Data for security companies, researchers, and teams who need to drill down, find suspicious changes to DNS records, and prevent future fraudulent or criminal activity.
 * [NS Lookup](https://www.nslookup.io/ns-lookup/): Find all name servers for a domain name with this online DNS NS checker.
-* [Shodan](https://www.shodan.io/): IP/Domain information.
+* [Shodan](https://www.shodan.io/): IP/Domain information and IoT search engine.
 * [Cisco Talos](https://talosintelligence.com/): Search by IP, domain, or network owner for real-time threat data.
 * [DNS Twist](https://dnstwist.it/): Phishing Domain Scanner.
 * [WhoIs](https://www.whois.com/whois): A Whois domain lookup allows you to trace the ownership and tenure of a domain name.
