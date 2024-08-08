@@ -1,7 +1,5 @@
 # ISC2: CISSP - Certified Information Systems Security Professional
 
-<figure><img src=".gitbook/assets/image (2).png" alt="" width="176"><figcaption></figcaption></figure>
-
 ## Overview
 
 The [Certified Information Systems Security Professional (CISSP)](https://www.isc2.org/certifications/cissp) certification should be something all security professionals should strive for.  It's an extremely challenging exam that tests on all areas of Information Security. Depending on someone's skill level, it can take months or even a year to study for the exam.&#x20;
